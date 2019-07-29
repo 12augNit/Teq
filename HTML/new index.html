@@ -1,0 +1,510 @@
+<html>
+<head>
+    <title>TEQ</title>
+    <link rel="stylesheet" type="text/css" href="../css/mains.css">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/mainss.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <div id="side-menu" class="side-nav">
+        <div class="side-bar">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#">Home!</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+    </div>
+<div class="container" id="main">
+        <div class="clearfix">
+        <header>
+           
+                <ul>
+                    <div class="container-left">
+                    <button onclick="openSlideMenu()" class="icon">
+                    <li><img src="../assets/images/icon.png" height="20px" width="20px"></li>
+                    </button>
+                    <li><p>Office 365</p> </li>
+                    <li><p>|</p></li>
+                    <li><p>SharePoint</p></li>
+                    </div>
+                </ul>    
+                <ul>
+                    <div class="container-right">
+                    <li><img src="../assets/images/bell.png" height="20px" width="20px"></li>
+                    <li><img src="../assets/images/set.png" height="20px" width="20px"></li>
+                    <li><img src="../assets/images/qmark.png" height="20px" width="20px"></li>
+                    <li><button onclick="show()">
+                                <img  src="../assets/images/bpp.jpg" height="20px" width="20px">
+                        </button>
+                    </li>
+                    </div>
+                </ul>    
+        </header>
+        </div>
+        <div class="clearfix-nav">
+        <nav>
+            
+            
+                <ul id="nit1">
+                    <div class="teq-logo">
+                    <li><img src="../assets/images/teq.png"></li>
+                    </div>
+                    <div class="first-nav">
+                    <li><a href="https://www.google.com">HOME</a></li>
+                    <li><a href="https://www.google.com">ABOUT US</a></li>
+                    <li>    
+                            <div class="capabilities">    
+                            <select>
+                                <option value="capabilities">CAPABILITIES</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            </div>
+                    </li>
+                    <li><a href="https://www.google.com">INITIATIVES</a></li>
+                    <li><a href="https://www.google.com">WORKSPACES</a></li>
+                    <li> 
+                        <div class="more">      
+                        <select>
+                            <option value="capabilities">More</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        </div>
+                    </li>
+                    <li id="container-search-bar">
+                                                        
+                        <div class="search-bar" >
+                            <button class="btn" id="btns" onclick="search()">
+                            <i class="fa fa-search" aria-hidden="true" height="10px" width="10px"></i>
+                            </button>
+                            <input type="text" placeholder="Search" class="input" id="srch">
+                        </div>
+                    </li>
+                    <li id="container-my-teq">
+                    <div class="my-teq">
+                    <img src="../assets/images/star.png" height="14px" width="14px">
+                                <p>MY TEQ</p>
+                    </div></li>
+                    </div>
+                </ul>    
+        </nav>
+        </div>
+        <div class="container-second-bar">
+                <div class="second-bar">
+                    <a href="https://www.google.com">HOME /</a>
+                    <a href="https://www.google.com">CAPABILITIES /</a>
+                    <a href="https://www.google.com"> <span style="color:black">QUALITY-ENGINEERING</a>
+                </div>   
+                <div class="second-bar-right">
+                    <img src="../assets/images/star.png" height="20px" width="20px">
+                </div>
+        </div>
+        <div class="container-quality">
+                <div class="quality-heading">
+                    <h1>QUALITY ENGINEERING</h1>
+                </div>
+                <div class="quality">
+                    <p>Transformation from Quality Assurance to Quality Engineering will occur through three major stages <br>of maturity required for both the QE team and the domain/business teams</p>
+                </div>
+        </div>
+        <div class="container-strategy-head">
+                <h1 class="strategy-head">Strategy and focus areas</h1>
+        </div>
+        <div class="container-strategy">
+                
+            <div class="strategy-main">
+                <div class="strategy-heading-left">
+                    <p>Continuous Intergration Enablement</p>
+                </div>
+                <div class="strategy-box">
+                        <p>Build Delivery Enablements to support all T-Mobile applications & development teams to enable CI/CD and DevOps resulting in faster time to market</p>
+                </div>
+            </div>
+            <div class="strategy-main">
+                <div class="strategy-heading-middle">
+                    <p>Continuous Intergration Enablement</p>
+                </div>
+                <div class="strategy-box">
+                    <p>Make it so easy for dev teams to utilize the delivery enablers, platform, tools and solutions</p>
+                </div>
+            </div>
+            <div class="strategy-main">
+                <div class="strategy-heading-right">
+                    <p>Continuous Intergration Enablement</p>
+                </div>
+                <div class="strategy-box">
+                    
+                        <p>Be a Proactive Organization that knows our Customers. We know their architecture, code, and pain points.</p>
+                        <p>Partnering wiht the dev/domain teams to proactively build capabilities & Solutions that addresses their pain points Tailored solutions with common patterns identified across the different types of applications - microservice apps, Saas, Monolithic apps.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <h1 class="capable-head">Capabilities</h1>
+        <div class="container-capable">
+            
+                <div class="capable-main">
+                    <div class="capable-heading">
+                        <p>Shift Left Enablement</p>
+                    </div>
+                    <div class="capable-box">
+                        <p>Shift Left Enablement</p>
+                    </div>
+                    <div class="capable-box">
+                        <p>Quality Engineering CoE</p>
+                    </div>
+                    <div class="capable-box">
+                        <p>Key Business Scenarios</p>
+                    </div>
+                    <div class="capable-box">
+                        <p>Key Business Scenarios</p>
+                    </div>
+                </div>
+                <div class="capable-main">
+                        <div class="capable-heading">
+                            <p>Shift Left Enablement</p>
+                        </div>
+                        <div class="capable-box">
+                            <p>Shift Left Enablement</p>
+                        </div>
+                        <div class="capable-box">
+                            <p>Quality Engineering CoE</p>
+                        </div>
+                        <div class="capable-box">
+                            <p>Key Business Scenarios</p>
+                        </div>
+                </div>
+                <div class="capable-main">
+                    <div class="capable-heading">
+                        <p>Shift Left Enablement</p>
+                    </div>
+                    <div class="capable-box">
+                        <p>Shift Left Enablement</p>
+                    </div>
+                    <div class="capable-box">
+                        <p>Quality Engineering CoE</p>
+                    </div>
+                    <div class="capable-box">
+                        <p>Key Business Scenarios</p>
+                    </div>
+                </div>
+                <div class="capable-main">
+                        <div class="capable-heading">
+                            <p>Shift Left Enablement</p>
+                        </div>
+                        <div class="capable-box">
+                            <p>Shift Left Enablement</p>
+                        </div>
+                        <div class="capable-box">
+                            <p>Quality Engineering CoE</p>
+                        </div>
+                        <div class="capable-box">
+                            <p>Key Business Scenarios</p>
+                        </div>
+                </div>
+        </div>
+        <h1 class="management-head">Management Team</h1>
+        <div class="slider-contain" id="slider-contain">
+        <div class="slider" id="slider">
+        <div class="container-management">   
+            <div class="management-main">
+                <div class="management-image">
+                    <img src="../assets/images/face.jpg" height="100px" width="100px">
+                </div>
+                <div class="management-box">
+                    <div class="footer-box-super">
+                        <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                    </div>        
+                    <div class="footer-box-sub">
+                        <p>Environment Transformation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="management-main">
+                <div class="management-image">
+                    <img src="../assets/images/face.jpg" height="100px" width="100px">
+                </div>
+                <div class="management-box">
+                    <div class="footer-box-super">
+                        <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                    </div>
+                    <div class="footer-box-sub">
+                        <p>Environment Transformation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="management-main">
+                <div class="management-image">
+                    <img src="../assets/images/face.jpg" height="100px" width="100px">
+                </div>
+                <div class="management-box">
+                    <div class="footer-box-super">
+                        <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                    </div>
+                         <div class="footer-box-sub">
+                        <p>Environment Transformation</p>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="management-main">
+                <div class="management-image">
+                    <img src="../assets/images/face.jpg" height="100px" width="100px">
+                </div>
+                <div class="management-box">
+                        <div class="footer-box-super">
+                    <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                        </div>
+                    <div class="footer-box-sub">
+                        <p>Environment Transformation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="management-main">
+                    <div class="management-image">
+                        <img src="../assets/images/fp.jfif" height="100px" width="100px">
+                    </div>
+                    <div class="management-box">
+                        <div class="footer-box-super">
+                            <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                        </div>
+                        <div class="footer-box-sub">
+                            <p>Environment Transformation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="management-main">
+                    <div class="management-image">
+                        <img src="../assets/images/fp.jfif" height="100px" width="100px">
+                    </div>
+                    <div class="management-box">
+                            <div class="footer-box-super">
+                        <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                            </div>
+                        <div class="footer-box-sub">
+                            <p>Environment Transformation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="management-main">
+                    <div class="management-image">
+                        <img src="../assets/images/fp.jfif" height="100px" width="100px">
+                    </div>
+                    <div class="management-box">
+                        <div class="footer-box-super">
+                        <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                        </div>   
+                        <div class="footer-box-sub">
+                            <p>Environment Transformation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="management-main">
+                    <div class="management-image">
+                        <img src="../assets/images/fp.jfif" height="100px" width="100px">
+                    </div>
+                    <div class="management-box">
+                            <div class="footer-box-super">
+                        <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                            </div>
+                        <div class="footer-box-sub">
+                            <p>Environment Transformation</p>
+                        </div>
+                    </div>
+                </div>   
+                    <div class="management-main">
+                        <div class="management-image">
+                            <img src="../assets/images/face.jpg" height="100px" width="100px">
+                        </div>
+                        <div class="management-box">
+                            <div class="footer-box-super">
+                                <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                            </div>        
+                            <div class="footer-box-sub">
+                                <p>Environment Transformation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="management-main">
+                        <div class="management-image">
+                            <img src="../assets/images/face.jpg" height="100px" width="100px">
+                        </div>
+                        <div class="management-box">
+                            <div class="footer-box-super">
+                                <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                            </div>
+                            <div class="footer-box-sub">
+                                <p>Environment Transformation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="management-main">
+                        <div class="management-image">
+                            <img src="../assets/images/face.jpg" height="100px" width="100px">
+                        </div>
+                        <div class="management-box">
+                            <div class="footer-box-super">
+                                <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                            </div>
+                                 <div class="footer-box-sub">
+                                <p>Environment Transformation</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="management-main">
+                        <div class="management-image">
+                            <img src="../assets/images/face.jpg" height="100px" width="100px">
+                        </div>
+                        <div class="management-box">
+                                <div class="footer-box-super">
+                            <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                                </div>
+                            <div class="footer-box-sub">
+                                <p>Environment Transformation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="management-main">
+                            <div class="management-image">
+                                <img src="../assets/images/face.jpg" height="100px" width="100px">
+                            </div>
+                            <div class="management-box">
+                                <div class="footer-box-super">
+                                    <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                                </div>
+                                <div class="footer-box-sub">
+                                    <p>Environment Transformation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="management-main">
+                            <div class="management-image">
+                                <img src="../assets/images/face.jpg" height="100px" width="100px">
+                            </div>
+                            <div class="management-box">
+                                    <div class="footer-box-super">
+                                <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                                    </div>
+                                <div class="footer-box-sub">
+                                    <p>Environment Transformation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="management-main">
+                            <div class="management-image">
+                                <img src="../assets/images/face.jpg" height="100px" width="100px">
+                            </div>
+                            <div class="management-box">
+                                <div class="footer-box-super">
+                                <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                                </div>   
+                                <div class="footer-box-sub">
+                                    <p>Environment Transformation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="management-main">
+                            <div class="management-image">
+                                <img src="../assets/images/face.jpg" height="100px" width="100px">
+                            </div>
+                            <div class="management-box">
+                                    <div class="footer-box-super">
+                                <p>SUJIT VASUDEV <br><b<span style="color:black">SR MANAGER</b></p>
+                                    </div>
+                                <div class="footer-box-sub">
+                                    <p>Environment Transformation</p>
+                                </div>
+                            </div>
+                            </div>
+            </div>
+        </div>
+        <button onclick="nextslide()" class="btn-next">></button>
+        <button onclick="prevslide()" class="btn-prev"><</button>
+        </div>
+  <!--  ---------------------------                         footer                             ----------------------                                    -->      
+        <footer>
+            <div class="footer-box">
+                <p>T E Q</p>
+            </div>
+            <div class="footer-box">
+                <h3>Home</h3>
+                <a href="https://www.google.com">About</a><br>
+                <a href="https://www.google.com">All Capabilities</a><br>
+                <a href="https://www.google.com">Initiatives</a>
+            </div>
+            <div class="footer-box">
+                <div class="bordered-link">
+                <h3>&nbsp;</h3>
+                <a href="https://www.google.com">People</a><br>
+                <a href="https://www.google.com">Workspace</a><br>
+                <a href="https://www.google.com">Learn</a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Capabilities</h3>
+                <a href="https://www.google.com">Autonomous Platforms</a><br>
+                <a href="https://www.google.com">CXT tests</a><br>
+                <a href="https://www.google.com">Data Services</a>
+            </div>
+            <div class="footer-box">
+                <div class="bordered-link">
+                <h3>&nbsp;</h3>
+                <a href="https://www.google.com">Delivery Platforms & Tools
+                    </a><br>
+                <a href="https://www.google.com">Quality-engineering</a><br>
+                <a href="https://www.google.com">Strategy, Architecture & Delivery</a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Others</h3>
+                <a href="https://www.google.com">Document Libray</a><br>
+                <a href="https://www.google.com">Calendar</a><br>
+                <a href="https://www.google.com">Feedback</a>
+            </div>
+        </footer>
+        <div class="container-last-bar">
+            <div class="last-left">
+            <div class="last-bar-image">
+                <img src="../assets/images/t.jfif" height="30px" width="200px">
+
+            </div>
+            <div class="last-bar">
+                <p>|</p>
+            </div>
+            <div class="last-bar">
+                <p>Copyrights © 2019 T-Mobile. All Rights Reserved.</p>
+            </div>
+            </div>
+            <div class="faq">
+                <p>FAQ</p>
+            </div>
+        </div>
+        <!--Modal section-->
+        <div class="bg-modal">
+                <div class="modal-contents">
+            
+                    <div class="close">+</div>
+                    <div class="pop">
+                    <img src="../assets/images/user.png" alt="">
+                    </div>
+                    <div class="barbar">
+                    <h1>LOG IN</h1>    
+                    <form action="">
+                        <input class="modal-bar" type="email" placeholder="Shoot your email buddy">
+                        <input class="modal-bar" type="password" placeholder="No lock without a key right?">
+                        
+                    </form>
+                    </div>
+                    <a href="#" class="popup">Submit</a>
+                </div>
+     </div>
+</div> 
+</body>
+</html>   
